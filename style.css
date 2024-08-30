@@ -41,13 +41,23 @@ a{
     color: black;
     text-decoration: none;
     text-decoration-color: white;
+    position: relative;
 }
 
-a:hover{
-    color: gray;
-    text-decoration: underline;
-    text-underline-offset: 0.5rem;
-    text-decoration-color: rgb(181,181,181);
+.nav-links a:after{
+    content: "";
+    position: absolute;
+    background-color: #4c6ef4;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    border-radius: 15%;
+    transition: all 0.3s;
+}
+
+.nav-links a:hover:after{
+    width: 100%;
 }
 
 .logo{
