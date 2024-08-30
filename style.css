@@ -161,10 +161,12 @@ section{
 
 /* Profile */
 
+
+
 #hero{
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 10rem;
     height: 80vh;
 }
 
@@ -176,7 +178,7 @@ section{
 }
 
 .section__pic{
-    border-radius: 50%;
+    clip-path: circle();
 }
 
 .section__text{
@@ -200,6 +202,7 @@ section{
 
 .title{
     font-size: 3rem;
+    margin: 20px auto;
     text-align: center;
     color: #4c6ef4  ;
 }
@@ -276,6 +279,8 @@ section{
 
 .about-pic{
     border-radius: 2rem;
+    width: 400px;
+    height: 550px;
 }
 
 .arrow{
