@@ -61,7 +61,8 @@ a{
 }
 
 .logo{
-    font-size: 2rem;
+    width: 300px;
+    vertical-align: middle;
 }
 
 .logo:hover{
@@ -283,6 +284,10 @@ section{
     height: 550px;
 }
 
+.about-text{
+    font-size: 18px;
+}
+
 .arrow{
     position: absolute;
     right: -5rem;
@@ -309,4 +314,18 @@ section{
     margin: auto 0;
 }
 
+/* Skills */
 
+#skills{
+    position: relative;
+}
+
+.skills-technical{
+    position: absolute;
+}
+
+.skills-image{
+    width: 30px;
+    margin: auto;
+    vertical-align: middle;
+}
